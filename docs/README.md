@@ -4,7 +4,7 @@
 
 <center>
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px; justify-content: center">
 <div style="margin-right: 10px; background-color: #428BCA; padding: 3px 10px; color: white; border-radius: 10px">JavaScript</div>
 <div style="margin-right: 10px; background-color: #5CB85C; padding: 3px 10px; color: white; border-radius: 10px">Java</div>
 <div style="margin-right: 10px; background-color: #B433FF; padding: 3px 10px; color: white; border-radius: 10px">Android</div>
