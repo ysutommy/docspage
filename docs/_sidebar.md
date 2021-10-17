@@ -10,4 +10,10 @@
   - [JVM](b-5-JVM.md)
 - JavaScript & 浏览器
   - [JavaScript重点概念](c-1-JS重点概念.md)
+  - [浏览器渲染原理](c-2-浏览器渲染原理.md)
+  - [Event Loop](c-3-Event Loop.md)
+  - [浏览器从输入url到渲染完成过程详解](c-4-浏览器从输入url到渲染完成过程详解.md)
+  - [ES6新特性](c-5-ES6新特性.md)
+  - [Promise详解](c-6-Promise详解.md)
+  - [灵活运用reduce](c-7-灵活运用reduce.md)
 - web性能优化
