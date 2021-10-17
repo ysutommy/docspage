@@ -39,11 +39,11 @@
 
     ```js
     function type(obj) {
-      return typeof obj !== 'object' ? typeof obj :         		Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
+      return typeof obj !== 'object' ? typeof obj : Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
     }
     ```
 
-####原型/原型链/继承
+#### 原型/原型链/继承
 
 > 1. String，Array，Number，Function，Object都是function
 > 2. `__proto__`和`constructor`是**对象实例**独有的，`prototype`属性是**函数**独有的
@@ -66,7 +66,7 @@
      }
      ```
 
-3. ##### 实现继承的几种方式
+3. **实现继承的几种方式**
 
    - 借助构造函数实现继承，缺点是父构造函数的原型链继承不了，若要全部继承，除非将所有属性和方法定义在构造函数中。优点是定义在父构造函数中的引用类型的属性，对于子构造函数的每个实例来说是独立的，并且在子构造函数实例化时，可以给父构造函数传参
 
@@ -137,7 +137,7 @@
      }
      ```
 
-####执行上下文/作用域链/闭包
+#### 执行上下文/作用域链/闭包
 
 - **闭包** *闭包是由函数以及声明该函数的词法环境组合而成的，或者说闭包是一个可以自己拥有独立的环境与变量的表达式（通常是函数）*。
 
@@ -224,7 +224,7 @@
 - `this`指向不同。在普通函数中，this总是指向调用它的对象，如果用作构造函数，this指向创建的对象实例
 - 箭头函数不具有prototype原型对象
 
-####Promise
+#### Promise
 
 * 4种状态，包括Promise A+规范的三种`pending`、`fulfilled`、`rejected`，`adopted`状态用来表示返回值也是一个promise的情况。如resolve(promise)、在`.then`的回调函数中返回一个promise
 
@@ -348,4 +348,4 @@
   }
   ```
 
-####fjlsjfdsl
+#### Other
