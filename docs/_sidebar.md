@@ -4,7 +4,10 @@
   - [数据结构&算法](a-3-数据结构&算法.md)
 - Java
   - [基础](b-1-Java基础.md)
-  - [JVM](b-2-JVM.md)
+  - [锁](b-2-锁.md)
+  - [Java集合](b-3-Java集合.md)
+  - [JUC](b-4-JUC.md)
+  - [JVM](b-5-JVM.md)
 - JavaScript & 浏览器
   - [JavaScript重点概念](c-1-JS重点概念.md)
 - web性能优化
