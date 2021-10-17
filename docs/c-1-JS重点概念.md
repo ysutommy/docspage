@@ -9,7 +9,7 @@
   - null 
 
     > 1.  JavaScript 是大小写敏感的，因此 `null` 与 `Null`、`NULL`或变体完全不同
-    > 2. ```typeof null === 'object'``` 二进制以000开头都判断为 object，null全为0
+    > 2.  ```typeof null === 'object'``` 二进制以000开头都判断为 object，null全为0
 
   - undefined
 
@@ -348,4 +348,88 @@
   }
   ```
 
-#### Other
+#### JS模块化
+
+模块化发展进程
+
+- 无模块
+
+  ```html
+  <script src='path/to/js'></script>
+  ```
+
+  - 污染全局作用域
+  - 依赖关系不明显
+  - 维护成本高
+
+- CommonJS规范
+
+  ```js
+  module.exports = {};
+  ```
+
+  - **优点** 解决了依赖、全局变量污染的问题
+  - **缺点** CommonJS用同步的方式加载模块。在服务端，模块文件都存在本地磁盘，读取非常快，所以这样做不会有问题。但是在浏览器端，限于网络原因，**CommonJS不适合浏览器端模块加载**，更合理的方案是使用异步加载
+
+- AMD规范
+
+  AMD标准中，定义了下面三个API：
+
+  1. `require([module], callback)`
+  2. `define(id, [depends], callback)`
+  3. `require.config()`
+
+  即通过define来**定义**一个模块，然后使用require来**加载**一个模块, 使用require.config()指定引用路径
+
+  - **优点** 适合在浏览器环境中异步加载模块、并行加载多个模块
+  - **缺点** 不能按需加载、开发成本大
+
+- CMD规范
+
+  > **AMD 推崇依赖前置、提前执行**，**CMD推崇依赖就近、延迟执行**。CMD 是 SeaJS 在推广过程中对模块定义的规范化产出。
+
+  ```js
+  // AMD写法
+  define(['a', 'b', 'c'], function(a, b, c) {
+    a.doSomething();
+    if (false) {
+      // 即使没有用到模块b，但b还是提前加载了
+      b.doSomething();
+    }
+  })
+
+  // CMD写法
+  define(function(require, exports, module) {
+    var a = require('./a');
+    a.doSomething();
+    if (false) {
+      var b = require('./b');
+      b.doSomething();
+    }
+  })
+  ```
+
+- ES6规范
+
+  一个模块只能有一个 `export default`
+
+  - CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用
+  - CommonJS 模块是运行时加载，ES6 模块是编译时输出接口
+
+手写一个适应多环境的模块
+
+```js
+;(function (global, factory) {
+  if (typeof module !== 'undefined' && typeof exports === 'object') {
+    module.exports = factory();
+  } else if (typeof define === 'function' && define.cmd) {
+    define(factory);
+  } else {
+    global = global || self;
+    global.moduleName = factory();
+  }
+} (this, function() {
+  // JS模块
+}))
+```
+
