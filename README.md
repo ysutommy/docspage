@@ -1,4 +1,5 @@
 ## YSU-TOMMY笔记
+##### 更好阅读体验请移步[高坡村](https://ysutommy.github.io/docspage)
 - 计算机基础
   - [操作系统](docs/a-1-操作系统.md)
   - [计算机网络](docs/a-2-计算机网络.md)
