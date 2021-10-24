@@ -1,19 +1,17 @@
-- 计算机基础
+- 计算机基础 & Java简记
   - [操作系统](a-1-操作系统.md)
   - [计算机网络](a-2-计算机网络.md)
-  - [数据结构&算法](a-3-数据结构&算法.md)
-- Java
-  - [基础](b-1-Java基础.md)
-  - [锁](b-2-锁.md)
-  - [Java集合](b-3-Java集合.md)
-  - [JUC](b-4-JUC.md)
-  - [JVM](b-5-JVM.md)
+  - [Java简记](a-3-Java简记.md)
 - JavaScript & 浏览器
-  - [JavaScript重点概念](c-1-JS重点概念.md)
-  - [浏览器渲染原理](c-2-浏览器渲染原理.md)
-  - [Event Loop](c-3-EventLoop.md)
-  - [浏览器从输入url到渲染完成过程详解](c-4-浏览器从输入url到渲染完成过程详解.md)
+  - [JavaScript重点概览](c-1-JS重点概览.md)
+  - [执行上下文](c-1-执行上下文.md)
+  - [原型/原型链](c-2-原型-原型链.md)
+  - [继承](c-3-继承.md)
+  - [柯里化/偏函数/函数记忆](c-4-柯里化-偏函数-函数记忆.md)
   - [ES6新特性](c-5-ES6新特性.md)
   - [Promise详解](c-6-Promise详解.md)
   - [灵活运用reduce](c-7-灵活运用reduce.md)
+  - [Event Loop](c-4-EventLoop.md)
+  - [浏览器渲染原理](c-2-浏览器渲染原理.md)
+  - [浏览器从输入url到渲染完成过程详解](c-4-浏览器从输入url到渲染完成过程详解.md)
 - web性能优化
