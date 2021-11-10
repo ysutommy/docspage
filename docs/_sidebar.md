@@ -3,12 +3,11 @@
   - [计算机网络](a-2-计算机网络.md)
   - [Java简记](a-3-Java简记.md)
 - JavaScript & 浏览器
-  - [JavaScript重点概览](c-1-JS重点概览.md)
   - [执行上下文](c-1-执行上下文.md)
   - [原型/原型链/继承](c-2-原型-原型链-继承.md)
   - [柯里化/偏函数/函数记忆](c-4-柯里化-偏函数-函数记忆.md)
   - [ES6新特性](c-5-ES6新特性.md)
-  - [Promise详解](c-6-Promise详解.md)
+  - [Promise源码剖析](c-6-Promise源码剖析.md)
   - [灵活运用reduce](c-7-灵活运用reduce.md)
   - [Event Loop](c-4-EventLoop.md)
   - [浏览器渲染原理](c-2-浏览器渲染原理.md)

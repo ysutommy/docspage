@@ -5,7 +5,6 @@
   - [计算机网络](docs/a-2-计算机网络.md)
   - [Java简记](docs/a-3-Java简记.md)
 - JavaScript & 浏览器
-  - [JavaScript重点概览](docs/c-1-JS重点概览.md)
   - [执行上下文](docs/c-1-执行上下文.md)
   - [原型/原型链/继承](docs/c-2-原型-原型链-继承.md)
   - [柯里化/偏函数/函数记忆](docs/c-4-柯里化-偏函数-函数记忆.md)
