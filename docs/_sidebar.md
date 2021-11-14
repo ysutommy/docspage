@@ -8,8 +8,8 @@
   - [柯里化/偏函数/函数记忆](c-4-柯里化-偏函数-函数记忆.md)
   - [ES6新特性](c-5-ES6新特性.md)
   - [Promise源码剖析](c-6-Promise源码剖析.md)
-  - [灵活运用reduce](c-7-灵活运用reduce.md)
-  - [Event Loop](c-4-EventLoop.md)
-  - [浏览器渲染原理](c-2-浏览器渲染原理.md)
+  - [Event Loop](c-7-EventLoop.md)
+  - [浏览器渲染原理](c-3-浏览器渲染原理.md)
+  - [浏览器缓存](c-8-浏览器缓存.md)
   - [浏览器从输入url到渲染完成过程详解](c-4-浏览器从输入url到渲染完成过程详解.md)
 - web性能优化
