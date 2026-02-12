@@ -5,7 +5,7 @@
 
 <center><h3>YSU-TOMMY</h3></center>
 
-<center><h4>Web前端</h4></center>
+<center><h4>前端</h4></center>
 
 <center>
 	<div style="display: flex; align-items: center; 
@@ -13,9 +13,9 @@
 		<div style="background-color: #428BCA;margin: 0px 10px 10px 0px;
 		    padding: 3px 10px;color: white;border-radius: 10px;">JavaScript</div>
 		<div style="background-color: #C33;margin: 0px 10px 10px 0px;
-		    padding: 3px 10px;color: white;border-radius: 10px;">Java</div>
+		    padding: 3px 10px;color: white;border-radius: 10px;">React</div>
 		<div style="background-color: #3b8e3f;margin: 0px 10px 10px 0px;
-		    padding: 3px 10px;color: white;border-radius: 10px;">Android</div>
+		    padding: 3px 10px;color: white;border-radius: 10px;">Antd</div>
 		<div style="background-color: #4fc08d;margin: 0px 10px 10px 0px;
 		    padding: 3px 10px;color: white;border-radius: 10px;">Vue</div>
 		<div style="background-color: #409EFF;margin: 0px 10px 10px 0px;
